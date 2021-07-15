@@ -1,0 +1,182 @@
+.navareacs {
+  height: 65px;
+  box-shadow: 0 5px 8px rgb(163 164 167);
+}
+i.spcicon {
+  margin-right: 6px;
+}
+a.nav-link.drftcs {
+  color: #615a5a;
+  font-weight: 600;
+}
+a.nav-link.delcs {
+  color: red;
+  font-weight: 600;
+}
+span.hdtxtcs {
+  color: #000;
+  font-weight: 600;
+}
+
+
+
+  i.fontsize32 {
+  font-size: 35px;
+   }
+button.btn.btn-mdopn 
+{
+  margin-left: -1em;
+  margin-top: 0;
+  color: red;
+  font-weight: 600;
+  margin-bottom: -25px;
+  }
+
+.mbttmspc {
+  margin-bottom: 1em;
+}
+.cardctrl {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 3em;
+}
+.textplace {
+  width: 80%;
+  margin: 16px auto;
+}
+
+
+/* responsive css start */
+@media (min-width: 280px) and (max-width: 1024px) {
+
+
+ul.navbar-nav.ml-auto {
+  box-shadow: 0 20px 40px rgb(53 53 97 / 32%);
+  border-color: #101010;
+  padding: 2em;
+}
+}
+@media (min-width: 280px) and (max-width: 767px) {
+
+.cardctrl {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+button.btn.btn-mdopn
+{
+  margin-left: -1em;
+}
+.imguploading {
+padding: 1em 0.5em 3em;
+}
+ul.uploadfy-ul {
+margin-top: 20px;
+}
+ul.uploadfy-ul li {
+width: 22.33333%;
+}
+body .uploadareacs {
+width: 100%;
+margin: 0 auto;
+padding: 2em 0em;
+}
+form.formaligncs {
+  padding: 0 !important;
+}
+}
+
+/* responsive css end */
+
+
+
+.uploadfy-ul {
+list-style: none;
+display: flow-root;
+padding: 0;
+}
+ul.uploadfy-ul li{
+width: 22.33333%;
+float: left;
+margin-right: 0.2em;
+margin-left: 0.2em;
+margin-top: 0.2em;
+margin-bottom: 0.2em;
+
+}
+.uploadfyimg{
+background: #d3d1d2;
+/* height: 95px; */
+width: 100%;
+position: relative;
+border-radius: 4px;
+}
+ul.uploadfy-ul li img{
+width: 100%;
+height: 100%;
+border-radius: 4px;
+object-fit: cover;
+}
+.uploadfy-ul li .crossbtn{
+background: transparent;
+width:20px;
+height:20px;
+border-radius: 50%;
+color:#666;
+position: absolute;
+right:4px;
+top:4px;
+border:0;
+cursor: pointer;
+}
+.uploadfy-ul li .crossbtn:focus{
+outline: none;
+}
+
+.uploadareacs {
+width: 80%;
+margin: 0 auto;
+background: #e3e3e3;
+padding: 6em 3em;
+border-radius: 15px;
+}
+
+
+
+
+form.formaligncs {
+padding: 2em;
+}
+.form-group input {
+border: none;
+border-bottom: 1px solid #b7aeae;
+border-radius: 0px;
+}
+select#formControlHoverLightGenderSelect {
+border: none;
+border-bottom: 1px solid #b7aeae;
+border-radius: 0px;
+}
+
+label.input-label.posctrl {
+position: absolute;
+top: 12px;
+}
+input.form-control.form-control-hover-light.pleftspccs {
+padding-left: 2em;
+}
+a.nav-link.pdright0 {
+padding-right: 0;
+padding-left: 0px;
+padding-top: 0;
+}
+a.nav-link.pdleftalign {
+padding-left: 3px;
+padding-top: 0;
+}
+button.btn.btnnewmodopncs {
+color: red;
+font-weight: 600;
+margin-bottom: -22px;
+padding-left: 0;
+}
